@@ -1,0 +1,36 @@
+2018-1-18T06:08:04.483|XS| WsError. "Error". &lt;?xml version="1.0" encoding="UTF-8"?>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+oap.org/soap/envelope/">&lt;soapenv:Body>&lt;soapenv:Fault>&lt;faultcode>soa
+ was called: "Test001F":  Service runtime exception calling an import from mediation
+tion 'getCustomerStatus', raised a FailFlowException. The user-supplied error message is 'Fallo Invocacion Hacia el CTG &amp;lt;failInfo xsi:type="Se:FailInfoType" x
+umentException: IWAA0124E: String '.\windows\win.iniX' exceeds the maximum length of 30 for parameter reEsbNumName.&amp
+;lt;/failureString&amp;gt;&amp;lt;origin&amp;gt;External Service&amp;lt;/origin&amp;gt;&amp;lt;invocationPath&amp;gt;&amp;lt;primitive inTerminal="" name="-unknown-"
+outTerminal=""/&amp;gt;&amp;lt;/invocationPath&amp;gt;&amp;lt;predecessor&amp;gt;&amp;lt;failureString&amp;gt;IWAA0124E: String '..\..\..\..\..\..\..\..\..\..\..\..
+\..\..\..\..\windows\win.iniX' exceeds the maximum length
+2018-1-18T06:08:10.525|XS| WsError. "Error". &lt;?xml version="1.0" encoding="UTF-8"?>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+oap.org/soap/envelope/">&lt;soapenv:Body>&lt;soapenv:Fault>&lt;faultcode>soapenv:Server&lt;/faultcode>&lt;faultstring>javax.xml.ws.WebServiceException: com.ibm.websp
+here.sca.ServiceRuntimeException: Program1: An unexpected exception occurred when processing mediation flow for component "Mediation Name" in modul
+e "Module Name": "Test001E": An unexpected exception occurred when the flow was xsi:type="Se:FailInfoType" x
+mlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1"&amp;gt;&amp;lt;failureString&amp;gt;java.lang.IllegalArg
+umentException: IWAA0124E: String '../../../../../../../../../../../../../../../../etc/passwd' exceeds the maximum length of 30 for parameter reEsbNumName.&amp;lt;/f
+/../../etc/passwd' exceeds the maximum length of 30 for p
+2018-1-18T06:08:12.607|XS| WsError. "Error". &lt;?xml version="1.0" encoding="UTF-8"?>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+oap.org/soap/envelope/">&lt;soapenv:Body>&lt;soapenv:Fault>&lt;faultcode>soapenv:Server&lt;/faultcode>&lt;faultstring>javax.xml.ws.WebServiceException: com.ibm.websp
+mediation
+2018-1-18T06:17:13.045|XS| WsError. "Error". &lt;?xml version="1.0" encoding="UTF-8"?>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+oap.org/soap/envelope/">&lt;soapenv:Body>&lt;soapenv:Fault>&lt;faultcode>
+: Program1: An unexpected exception occurred when processing mediation flow for component "Mediation Name" in modul
+e "Module Name": "Test001E": An unexpected exception occurred when the flow 
+Name"', interface '{urn://domain.com/customers/v1/}CustomerVerification', opera
+tion 'getCustomerStatus', raised a FailFlowException. The user-supplied error message is 'Fallo Invocacion Hacia el CTG &amp;lt;failInfo xsi:type="Se:FailInfoType" x
+mlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Se="http://www.ibm.com/websphere/sibx/smo/v6.0.1"&amp;gt;&amp;lt;failureString&amp;gt;java.lang.IllegalArg
+umentException: IWAA0124E: String 'http://n0osp4dkjpbvjhzeyqcrx47y1p7hx5ntfg69uy.burpcollaborator.net/?351554050501197' exceeds the maximum length of 50 for paramete
+r reEsbNumSerial.&amp;lt;/failureString&amp;gt;&amp;lt;origin&amp;gt;External Service&amp;lt;/origin&amp;gt;&amp;lt;invocationPath&amp;gt;&amp;lt;primitive inTermina
+l="" name="-unknown-" outTerminal=""/&amp;gt;&amp;lt;/invocationPath&amp;gt;&amp;lt;predecessor&amp;gt;&amp;lt;failureString&amp;gt;IWAA0124E: String 'http://n0osp4d
+kjpbvjhzeyqcrx47y1p7hx5ntfg69uy.burpcollaborator.net/?351
+
+2018-1-18T06:30:32.097|XS| WsError. "Error". &lt;?xml version="1.0" encoding="UTF-8"?>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmls
+flow was called: "Test001F":  Service runtime exception calling an import from mediation
+component "Mediation Name" in module "Module Name": "Test001F": An unexpected business logic exception occurred.: "Test001g": Fail primitive 'Er
+rorInvocacion', component '"Mediation Name"', module '"Module Name"', interface '{urn://domain.com/customers/v1/}CustomerVerification', opera
+tion 'getCustomerStatus', raised a FailFlowException. The user-supplied error message is 'Fallo Invocacion Hacia el CTG &amp;lt;failInfo 
+mp;lt;origin&amp;gt;External
